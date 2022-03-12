@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\moglm\\OneDrive - Københavns Universitet\\Universitet\\Bachelorprojekt\\Implementation\\Implementation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\moglm\\OneDrive - Københavns Universitet\\Universitet\\Bachelorprojekt\\Implementation\\Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\moglm\\OneDrive - Københavns Universitet\\Universitet\\Bachelorprojekt\\Implementation\\Implementation.csproj",
+        "projectName": "Implementation",
+        "projectPath": "C:\\Users\\moglm\\OneDrive - Københavns Universitet\\Universitet\\Bachelorprojekt\\Implementation\\Implementation.csproj",
+        "packagesPath": "C:\\Users\\moglm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moglm\\OneDrive - Københavns Universitet\\Universitet\\Bachelorprojekt\\Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\moglm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Common.Core.Net.Framework": {
+              "target": "Package",
+              "version": "[1.0.137, )"
+            },
+            "IKVM.OpenJDK.Beans": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.Corba": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.Core": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.Jdbc": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.Management": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.Media": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.Misc": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.Naming": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.Remoting": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.Security": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.SwingAWT": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.Text": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.Tools": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.Util": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.XML.API": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.XML.Bind": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.XML.Parse": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.XML.Transform": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.XML.WebServices": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.OpenJDK.XML.XPath": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.Reflection": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.Runtime": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.Runtime.JNI": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "Lorem.Universal.Net": {
+              "target": "Package",
+              "version": "[4.0.80, )"
+            },
+            "PeanutButter.RandomGenerators": {
+              "target": "Package",
+              "version": "[2.0.63, )"
+            },
+            "QuikGraph": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "QuikGraph.Data": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

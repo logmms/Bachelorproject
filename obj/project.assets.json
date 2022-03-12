@@ -1,0 +1,1064 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Common.Core.Net.Framework/1.0.137": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Common.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Common.Core.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Beans/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Util": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.API": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.Beans.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Beans.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Charsets/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.Charsets.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Charsets.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Corba/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Misc": "7.2.4630.5",
+          "IKVM.OpenJDK.Naming": "7.2.4630.5",
+          "IKVM.OpenJDK.Remoting": "7.2.4630.5",
+          "IKVM.OpenJDK.SwingAWT": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.OpenJDK.Util": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.Corba.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Corba.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Core/7.2.4630.5": {
+        "type": "package",
+        "compile": {
+          "lib/IKVM.OpenJDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Core.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Jdbc/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Misc": "7.2.4630.5",
+          "IKVM.OpenJDK.Naming": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.OpenJDK.Util": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.API": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.Jdbc.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Jdbc.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Management/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Beans": "7.2.4630.5",
+          "IKVM.OpenJDK.Corba": "7.2.4630.5",
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Naming": "7.2.4630.5",
+          "IKVM.OpenJDK.Remoting": "7.2.4630.5",
+          "IKVM.OpenJDK.Security": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.OpenJDK.Util": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.Management.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Management.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Media/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.OpenJDK.Util": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.API": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.Media.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Media.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Misc/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Remoting": "7.2.4630.5",
+          "IKVM.OpenJDK.Security": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.OpenJDK.Util": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.API": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.Misc.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Misc.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Naming/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.Naming.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Naming.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Remoting/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Naming": "7.2.4630.5",
+          "IKVM.OpenJDK.Security": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.OpenJDK.Util": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.Remoting.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Remoting.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Security/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.SwingAWT": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.Security.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Security.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.SwingAWT/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Charsets": "7.2.4630.5",
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.OpenJDK.Util": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.API": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.SwingAWT.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.SwingAWT.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Text/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.Text.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Text.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Tools/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Beans": "7.2.4630.5",
+          "IKVM.OpenJDK.Corba": "7.2.4630.5",
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Misc": "7.2.4630.5",
+          "IKVM.OpenJDK.Remoting": "7.2.4630.5",
+          "IKVM.OpenJDK.Security": "7.2.4630.5",
+          "IKVM.OpenJDK.SwingAWT": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.OpenJDK.Util": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.API": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.Bind": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.Parse": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.WebServices": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.Tools.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Tools.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Util/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.XML.API": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.Util.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.Util.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.XML.API/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.XML.API.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.XML.API.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.XML.Bind/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Beans": "7.2.4630.5",
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Media": "7.2.4630.5",
+          "IKVM.OpenJDK.SwingAWT": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.OpenJDK.Util": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.API": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.Parse": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.XML.Bind.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.XML.Bind.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.XML.Parse/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Beans": "7.2.4630.5",
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.API": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.XML.Parse.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.XML.Parse.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.XML.Transform/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.OpenJDK.Util": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.API": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.Parse": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.XPath": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.XML.Transform.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.XML.Transform.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.XML.WebServices/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Beans": "7.2.4630.5",
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Management": "7.2.4630.5",
+          "IKVM.OpenJDK.Media": "7.2.4630.5",
+          "IKVM.OpenJDK.Misc": "7.2.4630.5",
+          "IKVM.OpenJDK.Remoting": "7.2.4630.5",
+          "IKVM.OpenJDK.Security": "7.2.4630.5",
+          "IKVM.OpenJDK.SwingAWT": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.OpenJDK.Util": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.API": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.Bind": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.Parse": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.XML.WebServices.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.XML.WebServices.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.XML.XPath/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.OpenJDK.Text": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.API": "7.2.4630.5",
+          "IKVM.OpenJDK.XML.Parse": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.OpenJDK.XML.XPath.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.OpenJDK.XML.XPath.dll": {}
+        }
+      },
+      "IKVM.Reflection/7.2.4630.5": {
+        "type": "package",
+        "compile": {
+          "lib/IKVM.Reflection.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.Reflection.dll": {}
+        }
+      },
+      "IKVM.Runtime/7.2.4630.5": {
+        "type": "package",
+        "compile": {
+          "lib/IKVM.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.Runtime.dll": {}
+        }
+      },
+      "IKVM.Runtime.JNI/7.2.4630.5": {
+        "type": "package",
+        "dependencies": {
+          "IKVM.OpenJDK.Core": "7.2.4630.5"
+        },
+        "compile": {
+          "lib/IKVM.Runtime.JNI.dll": {}
+        },
+        "runtime": {
+          "lib/IKVM.Runtime.JNI.dll": {}
+        }
+      },
+      "Lorem.Universal.NET/4.0.80": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Lorem.NET.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Lorem.NET.dll": {}
+        }
+      },
+      "PeanutButter.RandomGenerators/2.0.63": {
+        "type": "package",
+        "dependencies": {
+          "PeanutButter.Utils": "2.0.63"
+        },
+        "compile": {
+          "lib/net462/PeanutButter.RandomGenerators.dll": {}
+        },
+        "runtime": {
+          "lib/net462/PeanutButter.RandomGenerators.dll": {}
+        }
+      },
+      "PeanutButter.Utils/2.0.63": {
+        "type": "package",
+        "compile": {
+          "lib/net462/PeanutButter.Utils.dll": {}
+        },
+        "runtime": {
+          "lib/net462/PeanutButter.Utils.dll": {}
+        }
+      },
+      "QuikGraph/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/QuikGraph.dll": {}
+        },
+        "runtime": {
+          "lib/net45/QuikGraph.dll": {}
+        }
+      },
+      "QuikGraph.Data/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "QuikGraph.Graphviz": "2.3.0"
+        },
+        "compile": {
+          "lib/net35/QuikGraph.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net35/QuikGraph.Data.dll": {}
+        }
+      },
+      "QuikGraph.Graphviz/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "QuikGraph": "2.3.0"
+        },
+        "compile": {
+          "lib/net40/QuikGraph.Graphviz.dll": {}
+        },
+        "runtime": {
+          "lib/net40/QuikGraph.Graphviz.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Common.Core.Net.Framework/1.0.137": {
+      "sha512": "GIKtrEzfaXHMsPnvaRZqJ1PdlJ5gUBhDx3freokCFtblalucrt/1pOxmmiL7uh7+qEcNGmYET6/j403l6iAkLg==",
+      "type": "package",
+      "path": "common.core.net.framework/1.0.137",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "common.core.net.framework.1.0.137.nupkg.sha512",
+        "common.core.net.framework.nuspec",
+        "lib/net461/Common.Core.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Beans/7.2.4630.5": {
+      "sha512": "a6886q18OhD6EVVWP00o07CvECsswprO+KSbvW7W4Ff59QLsPQUuVklRxZMy/u8mr0F95r6VjSEiA2izOzWx3A==",
+      "type": "package",
+      "path": "ikvm.openjdk.beans/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.beans.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.beans.nuspec",
+        "lib/IKVM.OpenJDK.Beans.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Charsets/7.2.4630.5": {
+      "sha512": "Zrpc+czArd8lb/SsYKOhDK+NQFTMn1POpqt845LMhRndvvcO3kgzzxK2EYBbxZ/GxvSaB3F/NxErdNJTm9yIYw==",
+      "type": "package",
+      "path": "ikvm.openjdk.charsets/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.charsets.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.charsets.nuspec",
+        "lib/IKVM.OpenJDK.Charsets.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Corba/7.2.4630.5": {
+      "sha512": "D/8U9vTDGipXuKyGWwa9asDCiFQhiQCQ3hJw+8tU73nh+3R8zfUUFXM53rgMV52s8PsKSmRoFVbKxvi0az66nA==",
+      "type": "package",
+      "path": "ikvm.openjdk.corba/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.corba.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.corba.nuspec",
+        "lib/IKVM.OpenJDK.Corba.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Core/7.2.4630.5": {
+      "sha512": "Ye7xHAvk3/tVZxLIXoJ41kBTn/t/ClAPAhhGwIa5GHGpU+xjPJlq+Ylbe0Xin58ectz72YikRl5q4KNMMmGgeg==",
+      "type": "package",
+      "path": "ikvm.openjdk.core/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.core.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.core.nuspec",
+        "lib/IKVM.OpenJDK.Core.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Jdbc/7.2.4630.5": {
+      "sha512": "w+Yu6KX0VwP/QEV2q1LuO4AKvivFgpRoQK4PKm4G01tyaoNAOjlfXwkmKJw6EvcmGRulKoeVMuc7c9VcUsKoog==",
+      "type": "package",
+      "path": "ikvm.openjdk.jdbc/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.jdbc.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.jdbc.nuspec",
+        "lib/IKVM.OpenJDK.Jdbc.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Management/7.2.4630.5": {
+      "sha512": "k2Tw3HHSmHttOKcQdYVxuMYNt4Ykg3bst4BINWlHk5jn1zGk8U1fS1p1hEqCtmyHUUhM7FRQbbI+QmCiwQ3TIQ==",
+      "type": "package",
+      "path": "ikvm.openjdk.management/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.management.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.management.nuspec",
+        "lib/IKVM.OpenJDK.Management.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Media/7.2.4630.5": {
+      "sha512": "vUxs9LHcNicfKwSClRoVMqFK5ZQPO2TaJLFgoShe30mxM84f/WC+lfGmJLGDXa1M3wJY/zIND8vpjsp7Na25vg==",
+      "type": "package",
+      "path": "ikvm.openjdk.media/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.media.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.media.nuspec",
+        "lib/IKVM.OpenJDK.Media.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Misc/7.2.4630.5": {
+      "sha512": "Ej8TyKbwhspI+ZXGOCqqFEUsWg+X58F0nzdOuPDK6gNIGhMxN7g5mUWmaytwANNFW3fqt6zxFGaPf7ik3HSDIw==",
+      "type": "package",
+      "path": "ikvm.openjdk.misc/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.misc.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.misc.nuspec",
+        "lib/IKVM.OpenJDK.Misc.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Naming/7.2.4630.5": {
+      "sha512": "aoyg5BVTYavWAqP9HTPim/zdwruo3i7DBH0qdwQw2DnouNVxBzEHjiGgGzV7Es76g5yYHtyBzGkJ5K90NT2DSg==",
+      "type": "package",
+      "path": "ikvm.openjdk.naming/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.naming.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.naming.nuspec",
+        "lib/IKVM.OpenJDK.Naming.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Remoting/7.2.4630.5": {
+      "sha512": "t81GPzu1L4igX+lLEpOsOxNtuPa6lSmTNeX2NsdA/1evYm4RaIqsjfLRFl3eUl3XRlN2wogAqi9Ylf+kL9XGCw==",
+      "type": "package",
+      "path": "ikvm.openjdk.remoting/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.remoting.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.remoting.nuspec",
+        "lib/IKVM.OpenJDK.Remoting.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Security/7.2.4630.5": {
+      "sha512": "UjOzG6tRezmeMAMIAU7mpmL2Jl81I6RHNCN7mrNlKwuGgL5sgwwzuCRb0DCfHGpwcQaUGT1aiFgWZhYy1F37kw==",
+      "type": "package",
+      "path": "ikvm.openjdk.security/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.security.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.security.nuspec",
+        "lib/IKVM.OpenJDK.Security.dll"
+      ]
+    },
+    "IKVM.OpenJDK.SwingAWT/7.2.4630.5": {
+      "sha512": "+MYG1UcSe5RTAUpgud7GmNxbaS6aRPSAeGC3b8GR2g2HdH/335j4XwWWeUBABNQsYZux5CBID1vQmSvhmS5d3g==",
+      "type": "package",
+      "path": "ikvm.openjdk.swingawt/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.swingawt.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.swingawt.nuspec",
+        "lib/IKVM.OpenJDK.SwingAWT.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Text/7.2.4630.5": {
+      "sha512": "sgh9sdJZwCNXQ8fkJMG2bSCYUsL093lLAufdIOVD1DE0VRqhoZkAOnCRtZFOcOzVPL20t8R7bsOhegoTeO0x1A==",
+      "type": "package",
+      "path": "ikvm.openjdk.text/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.text.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.text.nuspec",
+        "lib/IKVM.OpenJDK.Text.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Tools/7.2.4630.5": {
+      "sha512": "ZDGPeGdnWJmFKDf9lHkG6mcTNXC8j16UnNmeHia8u7Wy6csJNGOkdSX1OXncy5dqFkaYIz3fmSGdY4qQeRA1PQ==",
+      "type": "package",
+      "path": "ikvm.openjdk.tools/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.tools.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.tools.nuspec",
+        "lib/IKVM.OpenJDK.Tools.dll"
+      ]
+    },
+    "IKVM.OpenJDK.Util/7.2.4630.5": {
+      "sha512": "Bo5wuxSPpIsrWlELez6dvhawALBM1lkQ7rJEeHsm0IQZVR3Sfl5OqHuIodWlZnDxzBNexIVGueNYDm3eFwqsjQ==",
+      "type": "package",
+      "path": "ikvm.openjdk.util/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.util.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.util.nuspec",
+        "lib/IKVM.OpenJDK.Util.dll"
+      ]
+    },
+    "IKVM.OpenJDK.XML.API/7.2.4630.5": {
+      "sha512": "OSUhvFPvb4dLw7YERPHC2893sBb9Zw/PxHQK4kdrqNSTPXKghUNWBnRBt3ukWleYLVwrcC0QnFHP0slXK9uy+w==",
+      "type": "package",
+      "path": "ikvm.openjdk.xml.api/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.xml.api.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.xml.api.nuspec",
+        "lib/IKVM.OpenJDK.XML.API.dll"
+      ]
+    },
+    "IKVM.OpenJDK.XML.Bind/7.2.4630.5": {
+      "sha512": "IKpReZuH/e7wHy/dP+UkloEp3bYOkDV5C6/xwmGHrxj58/uhGO5ldjPgR20S71UlZV9FAHHpIHtyuvl5bFD1Ng==",
+      "type": "package",
+      "path": "ikvm.openjdk.xml.bind/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.xml.bind.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.xml.bind.nuspec",
+        "lib/IKVM.OpenJDK.XML.Bind.dll"
+      ]
+    },
+    "IKVM.OpenJDK.XML.Parse/7.2.4630.5": {
+      "sha512": "z7wPniWTm9Ge5AX0aH3qz3Bfyb42XSX79Gs/wq3La1ZsWkjMkBgrhVIgpHo9ckdf8BDnSKl3tcym8LPyuTcLxg==",
+      "type": "package",
+      "path": "ikvm.openjdk.xml.parse/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.xml.parse.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.xml.parse.nuspec",
+        "lib/IKVM.OpenJDK.XML.Parse.dll"
+      ]
+    },
+    "IKVM.OpenJDK.XML.Transform/7.2.4630.5": {
+      "sha512": "u9IqrZMWLq28nxpHI42iR2ygkYm51rkbouluDFQTRAhUPwT3b334gIM60FDcg0xYKtjPgXAJ9WkHYeZP2emUjg==",
+      "type": "package",
+      "path": "ikvm.openjdk.xml.transform/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.xml.transform.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.xml.transform.nuspec",
+        "lib/IKVM.OpenJDK.XML.Transform.dll"
+      ]
+    },
+    "IKVM.OpenJDK.XML.WebServices/7.2.4630.5": {
+      "sha512": "QKFdPzCFa+Vi41dqKgbXjAYtfzClR9W0H3NRliy4mBcrnmXgCnWMkuVMteWldp2FkKsLF2AeyeKMYiJVcTrtZA==",
+      "type": "package",
+      "path": "ikvm.openjdk.xml.webservices/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.xml.webservices.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.xml.webservices.nuspec",
+        "lib/IKVM.OpenJDK.XML.WebServices.dll"
+      ]
+    },
+    "IKVM.OpenJDK.XML.XPath/7.2.4630.5": {
+      "sha512": "6v9p9stkanObHLgztx8NmfX7wsSn1zGWNbvL3yZDpIRxAIVP29EjAFv3PyubFwBFTxqyKbk5rVvUy9XG8ftU/w==",
+      "type": "package",
+      "path": "ikvm.openjdk.xml.xpath/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.openjdk.xml.xpath.7.2.4630.5.nupkg.sha512",
+        "ikvm.openjdk.xml.xpath.nuspec",
+        "lib/IKVM.OpenJDK.XML.XPath.dll"
+      ]
+    },
+    "IKVM.Reflection/7.2.4630.5": {
+      "sha512": "HD8ZPd2bR5vB4LX/IBLT+EHwPDcYmNWgS62NkQ31kMEMIasHyyWhTfxALG8D/9SQwXTqayZ/xDUZ6rwpGw3gPw==",
+      "type": "package",
+      "path": "ikvm.reflection/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.reflection.7.2.4630.5.nupkg.sha512",
+        "ikvm.reflection.nuspec",
+        "lib/IKVM.Reflection.dll"
+      ]
+    },
+    "IKVM.Runtime/7.2.4630.5": {
+      "sha512": "gSNKJMYhVhbQ1L9osN9M+SRfMKV0ENmY6fr/mjR+OEZz2Y26Q1tqoWUvekVF/PTCaY0D0LPMeWsg81rGfGCurA==",
+      "type": "package",
+      "path": "ikvm.runtime/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.runtime.7.2.4630.5.nupkg.sha512",
+        "ikvm.runtime.nuspec",
+        "lib/IKVM.Runtime.dll"
+      ]
+    },
+    "IKVM.Runtime.JNI/7.2.4630.5": {
+      "sha512": "1Pz8pdbeyCHEe5ZMfz3PjUxlht+EOBWGC41zl14/i6LjDGgsCpvyv4PsZcKA1uBYV+4gsVZEhdcuTFK4PAgXRw==",
+      "type": "package",
+      "path": "ikvm.runtime.jni/7.2.4630.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ikvm.runtime.jni.7.2.4630.5.nupkg.sha512",
+        "ikvm.runtime.jni.nuspec",
+        "lib/IKVM.Runtime.JNI.dll"
+      ]
+    },
+    "Lorem.Universal.NET/4.0.80": {
+      "sha512": "ywT/QJZeqVoGD1W89Mwedvkv8kNfGV4WlGUyQpVb55pdKpll/BTKSk0l5WAbhbetNBTL8jwgHnkLid/Q5t4lGQ==",
+      "type": "package",
+      "path": "lorem.universal.net/4.0.80",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Lorem.NET.dll",
+        "lib/net461/Lorem.NET.xml",
+        "lib/netstandard1.0/Lorem.NET.dll",
+        "lib/netstandard1.0/Lorem.NET.xml",
+        "lib/netstandard2.0/Lorem.NET.dll",
+        "lib/netstandard2.0/Lorem.NET.xml",
+        "license.md",
+        "lorem.universal.net.4.0.80.nupkg.sha512",
+        "lorem.universal.net.nuspec"
+      ]
+    },
+    "PeanutButter.RandomGenerators/2.0.63": {
+      "sha512": "iEFU2d3U7CPFObBnCjTDi/HVP9mRYCFqFFSW1Zgm867bDFSKqOtIWr0t6qLGNiscFwfE4c5d3q0VKnYTIyBQVw==",
+      "type": "package",
+      "path": "peanutbutter.randomgenerators/2.0.63",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net452/PeanutButter.RandomGenerators.dll",
+        "lib/net452/PeanutButter.RandomGenerators.xml",
+        "lib/net462/PeanutButter.RandomGenerators.dll",
+        "lib/net462/PeanutButter.RandomGenerators.xml",
+        "lib/netstandard2.0/PeanutButter.RandomGenerators.deps.json",
+        "lib/netstandard2.0/PeanutButter.RandomGenerators.dll",
+        "lib/netstandard2.0/PeanutButter.RandomGenerators.xml",
+        "peanutbutter.randomgenerators.2.0.63.nupkg.sha512",
+        "peanutbutter.randomgenerators.nuspec"
+      ]
+    },
+    "PeanutButter.Utils/2.0.63": {
+      "sha512": "YcQqoXd30z1HLM8d2icjPVEBlvKtFncF8uzukFALOiQyp7QnRxIgDs2mZj1EI5k7dGKScAcii2fqpLdRY9PF6A==",
+      "type": "package",
+      "path": "peanutbutter.utils/2.0.63",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net452/PeanutButter.Utils.dll",
+        "lib/net452/PeanutButter.Utils.xml",
+        "lib/net462/PeanutButter.Utils.dll",
+        "lib/net462/PeanutButter.Utils.xml",
+        "lib/netstandard2.0/PeanutButter.Utils.deps.json",
+        "lib/netstandard2.0/PeanutButter.Utils.dll",
+        "lib/netstandard2.0/PeanutButter.Utils.xml",
+        "peanutbutter.utils.2.0.63.nupkg.sha512",
+        "peanutbutter.utils.nuspec",
+        "tools/UpdatePeanutButter.psm1",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "QuikGraph/2.3.0": {
+      "sha512": "Vhj33jEOi4xQlJHFOrhDf29MgYLYnPi4z6ywIVvPhe/nUkCihj3kynWI9PaK+HM29ati5rd1SUON5z2sslEsVw==",
+      "type": "package",
+      "path": "quikgraph/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net35/QuikGraph.dll",
+        "lib/net35/QuikGraph.xml",
+        "lib/net40/QuikGraph.dll",
+        "lib/net40/QuikGraph.xml",
+        "lib/net45/QuikGraph.dll",
+        "lib/net45/QuikGraph.xml",
+        "lib/netstandard1.3/QuikGraph.dll",
+        "lib/netstandard1.3/QuikGraph.xml",
+        "lib/netstandard2.0/QuikGraph.dll",
+        "lib/netstandard2.0/QuikGraph.xml",
+        "quikgraph.2.3.0.nupkg.sha512",
+        "quikgraph.nuspec",
+        "quikgraph_logo.png"
+      ]
+    },
+    "QuikGraph.Data/2.3.0": {
+      "sha512": "VhbCEd60I3udXxnoLRxCesyVJwBglop8YR4OmD7NMc7Kg4oSyzLqC8jNNgXHXtKxrJWynzrFtQNC9fHpKX6txA==",
+      "type": "package",
+      "path": "quikgraph.data/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net35/QuikGraph.Data.dll",
+        "lib/net35/QuikGraph.Data.xml",
+        "lib/netstandard2.0/QuikGraph.Data.dll",
+        "lib/netstandard2.0/QuikGraph.Data.xml",
+        "quikgraph.data.2.3.0.nupkg.sha512",
+        "quikgraph.data.nuspec",
+        "quikgraph_logo.png"
+      ]
+    },
+    "QuikGraph.Graphviz/2.3.0": {
+      "sha512": "qeDO/A2t8lABGmK6a3o0IdjVZwZCvYoIHMYWDYvXZrBqW6WEy1FSOR/n/Y0eKFJq67r1J5mirD0cG6Ghqevr3g==",
+      "type": "package",
+      "path": "quikgraph.graphviz/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net35/QuikGraph.Graphviz.dll",
+        "lib/net35/QuikGraph.Graphviz.xml",
+        "lib/net40/QuikGraph.Graphviz.dll",
+        "lib/net40/QuikGraph.Graphviz.xml",
+        "lib/netstandard1.3/QuikGraph.Graphviz.dll",
+        "lib/netstandard1.3/QuikGraph.Graphviz.xml",
+        "lib/netstandard2.0/QuikGraph.Graphviz.dll",
+        "lib/netstandard2.0/QuikGraph.Graphviz.xml",
+        "quikgraph.graphviz.2.3.0.nupkg.sha512",
+        "quikgraph.graphviz.nuspec",
+        "quikgraph_logo.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Common.Core.Net.Framework >= 1.0.137",
+      "IKVM.OpenJDK.Beans >= 7.2.4630.5",
+      "IKVM.OpenJDK.Corba >= 7.2.4630.5",
+      "IKVM.OpenJDK.Core >= 7.2.4630.5",
+      "IKVM.OpenJDK.Jdbc >= 7.2.4630.5",
+      "IKVM.OpenJDK.Management >= 7.2.4630.5",
+      "IKVM.OpenJDK.Media >= 7.2.4630.5",
+      "IKVM.OpenJDK.Misc >= 7.2.4630.5",
+      "IKVM.OpenJDK.Naming >= 7.2.4630.5",
+      "IKVM.OpenJDK.Remoting >= 7.2.4630.5",
+      "IKVM.OpenJDK.Security >= 7.2.4630.5",
+      "IKVM.OpenJDK.SwingAWT >= 7.2.4630.5",
+      "IKVM.OpenJDK.Text >= 7.2.4630.5",
+      "IKVM.OpenJDK.Tools >= 7.2.4630.5",
+      "IKVM.OpenJDK.Util >= 7.2.4630.5",
+      "IKVM.OpenJDK.XML.API >= 7.2.4630.5",
+      "IKVM.OpenJDK.XML.Bind >= 7.2.4630.5",
+      "IKVM.OpenJDK.XML.Parse >= 7.2.4630.5",
+      "IKVM.OpenJDK.XML.Transform >= 7.2.4630.5",
+      "IKVM.OpenJDK.XML.WebServices >= 7.2.4630.5",
+      "IKVM.OpenJDK.XML.XPath >= 7.2.4630.5",
+      "IKVM.Reflection >= 7.2.4630.5",
+      "IKVM.Runtime >= 7.2.4630.5",
+      "IKVM.Runtime.JNI >= 7.2.4630.5",
+      "Lorem.Universal.Net >= 4.0.80",
+      "PeanutButter.RandomGenerators >= 2.0.63",
+      "QuikGraph >= 2.3.0",
+      "QuikGraph.Data >= 2.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\moglm\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\moglm\\OneDrive - Københavns Universitet\\Universitet\\Bachelorprojekt\\Implementation\\Implementation.csproj",
+      "projectName": "Implementation",
+      "projectPath": "C:\\Users\\moglm\\OneDrive - Københavns Universitet\\Universitet\\Bachelorprojekt\\Implementation\\Implementation.csproj",
+      "packagesPath": "C:\\Users\\moglm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\moglm\\OneDrive - Københavns Universitet\\Universitet\\Bachelorprojekt\\Implementation\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\moglm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "noWarn": [
+          "NU1701"
+        ],
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "Common.Core.Net.Framework": {
+            "target": "Package",
+            "version": "[1.0.137, )"
+          },
+          "IKVM.OpenJDK.Beans": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.Corba": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.Core": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.Jdbc": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.Management": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.Media": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.Misc": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.Naming": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.Remoting": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.Security": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.SwingAWT": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.Text": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.Tools": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.Util": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.XML.API": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.XML.Bind": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.XML.Parse": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.XML.Transform": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.XML.WebServices": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.OpenJDK.XML.XPath": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.Reflection": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.Runtime": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "IKVM.Runtime.JNI": {
+            "target": "Package",
+            "version": "[7.2.4630.5, )"
+          },
+          "Lorem.Universal.Net": {
+            "target": "Package",
+            "version": "[4.0.80, )"
+          },
+          "PeanutButter.RandomGenerators": {
+            "target": "Package",
+            "version": "[2.0.63, )"
+          },
+          "QuikGraph": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "QuikGraph.Data": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>.NETFramework,Version=v4.8</TargetFramework>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Common.Core.Net.Framework" Version="1.0.137" />
+    <PackageReference Include="Lorem.Universal.Net" Version="4.0.80" />
+    <PackageReference Include="PeanutButter.RandomGenerators" Version="2.0.63" />
+    <PackageReference Include="QuikGraph" Version="2.3.0" />
+    <PackageReference Include="QuikGraph.Data" Version="2.3.0" />
+    <PackageReference Include="IKVM.OpenJDK.Core" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.Runtime" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.Beans" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.Corba" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.Jdbc" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.Management" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.Media" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.Misc" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.Naming" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.Remoting" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.Security" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.SwingAWT" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.Text" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.Tools" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.Util" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.XML.API" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.XML.Bind" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.XML.Parse" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.XML.Transform" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.XML.WebServices" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.OpenJDK.XML.XPath" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.Reflection" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.Runtime.JNI" Version="7.2.4630.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ThorupAlg">
+      <HintPath>lib\ThorupAlg.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

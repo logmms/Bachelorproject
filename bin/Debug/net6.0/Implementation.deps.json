@@ -1,0 +1,172 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Implementation/1.0.0": {
+        "dependencies": {
+          "IKVM.OpenJDK.Core": "7.2.4630.5",
+          "IKVM.Runtime": "7.2.4630.5",
+          "PeanutButter.RandomGenerators": "2.0.63",
+          "QuikGraph": "2.3.0",
+          "QuikGraph.Data": "2.3.0",
+          "lol": "0.0.0.0",
+          "SplitFindMin": "0.0.0.0"
+        },
+        "runtime": {
+          "Implementation.dll": {}
+        }
+      },
+      "IKVM.OpenJDK.Core/7.2.4630.5": {
+        "runtime": {
+          "lib/IKVM.OpenJDK.Core.dll": {
+            "assemblyVersion": "7.2.4630.5",
+            "fileVersion": "7.2.4630.5"
+          }
+        }
+      },
+      "IKVM.Runtime/7.2.4630.5": {
+        "runtime": {
+          "lib/IKVM.Runtime.dll": {
+            "assemblyVersion": "7.2.4630.5",
+            "fileVersion": "7.2.4630.5"
+          }
+        }
+      },
+      "PeanutButter.RandomGenerators/2.0.63": {
+        "dependencies": {
+          "PeanutButter.Utils": "2.0.63"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PeanutButter.RandomGenerators.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PeanutButter.Utils/2.0.63": {
+        "runtime": {
+          "lib/netstandard2.0/PeanutButter.Utils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "QuikGraph/2.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/QuikGraph.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "QuikGraph.Data/2.3.0": {
+        "dependencies": {
+          "QuikGraph.Graphviz": "2.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/QuikGraph.Data.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "QuikGraph.Graphviz/2.3.0": {
+        "dependencies": {
+          "QuikGraph": "2.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/QuikGraph.Graphviz.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "lol/0.0.0.0": {
+        "runtime": {
+          "lol.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SplitFindMin/0.0.0.0": {
+        "runtime": {
+          "SplitFindMin.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Implementation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IKVM.OpenJDK.Core/7.2.4630.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ye7xHAvk3/tVZxLIXoJ41kBTn/t/ClAPAhhGwIa5GHGpU+xjPJlq+Ylbe0Xin58ectz72YikRl5q4KNMMmGgeg==",
+      "path": "ikvm.openjdk.core/7.2.4630.5",
+      "hashPath": "ikvm.openjdk.core.7.2.4630.5.nupkg.sha512"
+    },
+    "IKVM.Runtime/7.2.4630.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gSNKJMYhVhbQ1L9osN9M+SRfMKV0ENmY6fr/mjR+OEZz2Y26Q1tqoWUvekVF/PTCaY0D0LPMeWsg81rGfGCurA==",
+      "path": "ikvm.runtime/7.2.4630.5",
+      "hashPath": "ikvm.runtime.7.2.4630.5.nupkg.sha512"
+    },
+    "PeanutButter.RandomGenerators/2.0.63": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iEFU2d3U7CPFObBnCjTDi/HVP9mRYCFqFFSW1Zgm867bDFSKqOtIWr0t6qLGNiscFwfE4c5d3q0VKnYTIyBQVw==",
+      "path": "peanutbutter.randomgenerators/2.0.63",
+      "hashPath": "peanutbutter.randomgenerators.2.0.63.nupkg.sha512"
+    },
+    "PeanutButter.Utils/2.0.63": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YcQqoXd30z1HLM8d2icjPVEBlvKtFncF8uzukFALOiQyp7QnRxIgDs2mZj1EI5k7dGKScAcii2fqpLdRY9PF6A==",
+      "path": "peanutbutter.utils/2.0.63",
+      "hashPath": "peanutbutter.utils.2.0.63.nupkg.sha512"
+    },
+    "QuikGraph/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vhj33jEOi4xQlJHFOrhDf29MgYLYnPi4z6ywIVvPhe/nUkCihj3kynWI9PaK+HM29ati5rd1SUON5z2sslEsVw==",
+      "path": "quikgraph/2.3.0",
+      "hashPath": "quikgraph.2.3.0.nupkg.sha512"
+    },
+    "QuikGraph.Data/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VhbCEd60I3udXxnoLRxCesyVJwBglop8YR4OmD7NMc7Kg4oSyzLqC8jNNgXHXtKxrJWynzrFtQNC9fHpKX6txA==",
+      "path": "quikgraph.data/2.3.0",
+      "hashPath": "quikgraph.data.2.3.0.nupkg.sha512"
+    },
+    "QuikGraph.Graphviz/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qeDO/A2t8lABGmK6a3o0IdjVZwZCvYoIHMYWDYvXZrBqW6WEy1FSOR/n/Y0eKFJq67r1J5mirD0cG6Ghqevr3g==",
+      "path": "quikgraph.graphviz/2.3.0",
+      "hashPath": "quikgraph.graphviz.2.3.0.nupkg.sha512"
+    },
+    "lol/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SplitFindMin/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
